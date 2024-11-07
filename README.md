@@ -4,26 +4,26 @@ This project provides an Inventory Management Dashboard using Power BI to help W
 
 
 # Tools Used:
-Power BI : For data visualization, analysis, and dashboard creation.
+- Power BI : For data visualization, analysis, and dashboard creation.
 
-Excel : For data storage, pre-processing, and integration with Power BI.
+- Excel : For data storage, pre-processing, and integration with Power BI.
 
 # Key Components of the Inventory Analysis Dashboard:
-ABC Classification : Categorizes inventory based on importance, typically by value and volume, to prioritize management focus on critical items.
+- ABC Classification : Categorizes inventory based on importance, typically by value and volume, to prioritize management focus on critical items.
 
-XYZ Classification: Analyzes demand variability, grouping items into categories with high, medium, and low demand predictability.
+- XYZ Classification: Analyzes demand variability, grouping items into categories with high, medium, and low demand predictability.
 
-Inventory Turnover Ratio : Measures the rate at which inventory is used up and restocked, reflecting efficiency in inventory usage.
+- Inventory Turnover Ratio : Measures the rate at which inventory is used up and restocked, reflecting efficiency in inventory usage.
 
-Safety Stock Levels :  Calculates optimal safety stock to mitigate the risk of stockouts.
+- Safety Stock Levels :  Calculates optimal safety stock to mitigate the risk of stockouts.
 
-Estimation of Reorder Levels and Safety stock : Determines reorder points to help plan stock replenishments.
+- Estimation of Reorder Levels and Safety stock : Determines reorder points to help plan stock replenishments.
 
-Calculation of Average weekly demands : Tracks demand trends to aid in more accurate forecasting.
+- Calculation of Average weekly demands : Tracks demand trends to aid in more accurate forecasting.
 
-Stock Status : Provides real-time insights into current stock levels and potential shortages.
+- Stock Status : Provides real-time insights into current stock levels and potential shortages.
 
-Forecasting for the next time period :Projects future demand based on historical trends.
+- Forecasting for the next time period :Projects future demand based on historical trends.
 
 # Visualization Used:
 
@@ -40,37 +40,30 @@ Forecasting for the next time period :Projects future demand based on historical
 
 # Steps followed for Creating Inventory Management Dashboard:
 
-Data Import:
-
+- Data Import:
 Upload Excel files or connect to data sources using Power BI’s Get Data feature.
 
-ETL Process (Extract, Transform, Load):
-
+- ETL Process (Extract, Transform, Load):
 Clean, shape, and transform data in Power Query Editor.
 Normalize data to ensure accuracy in analysis (e.g., remove duplicates, handle missing values).
 
-Data Modeling:
-
+- Data Modeling:
 Establish relationships between tables, set primary keys, and organize data for analysis.
 Use calculated columns and measures in DAX for complex calculations.
 
-DAX Operations:
-
+- DAX Operations:
 Create measures for KPIs like average demand, reorder points, and turnover ratios.
 DAX expressions are used for custom calculations and time intelligence functions (e.g., cumulative totals).
 
-Visualization Setup:
-
+- Visualization Setup:
 Select appropriate charts, cards, and tables to visualize data insights.
 Use slicers to enable filtering by categories (e.g., product type, region).
 Format visualizations for clarity and ease of interpretation.
 
-Dashboard Finalization:
-
+- Dashboard Finalization:
 Arrange visuals to create an intuitive, user-friendly layout.
 Customize colors, labels, and tooltips for better readability.
 
-[NOTE : IF YOU WANT DETAIL STEPS FOR THIS PROJECT, I HAVE ATTATCHED A PPT FOR IT.]
 
 # Conclusion:
 

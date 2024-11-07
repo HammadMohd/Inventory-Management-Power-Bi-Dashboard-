@@ -1,52 +1,78 @@
 # Inventory-Management-Power-Bi-Dashboard-
 
-This project provides Inventory Management using Power BI, useful for Warehouse/ In-plant Inventory Managers to effectively control the Inventory levels and also maintain the Service Levels.
+This project provides an Inventory Management Dashboard using Power BI to help Warehouse and In-plant Inventory Managers effectively manage inventory levels and maintain service levels. The dashboard provides key insights into stock status, reorder levels, inventory turnover, demand forecasting, and more.
+
 
 # Tools Used:
-Power BI Software
+Power BI : For data visualization, analysis, and dashboard creation.
 
-Excel
+Excel : For data storage, pre-processing, and integration with Power BI.
 
 # Key Components of the Inventory Analysis Dashboard:
-ABC Classification
+ABC Classification : Categorizes inventory based on importance, typically by value and volume, to prioritize management focus on critical items.
 
-XYZ Classification
+XYZ Classification: Analyzes demand variability, grouping items into categories with high, medium, and low demand predictability.
 
-Inventory Turnover Ratio
+Inventory Turnover Ratio : Measures the rate at which inventory is used up and restocked, reflecting efficiency in inventory usage.
 
-Safety Stock Levels
+Safety Stock Levels :  Calculates optimal safety stock to mitigate the risk of stockouts.
 
-Estimation of Reorder Levels and Safety stock
+Estimation of Reorder Levels and Safety stock : Determines reorder points to help plan stock replenishments.
 
-Calculation of Average weekly demands
+Calculation of Average weekly demands : Tracks demand trends to aid in more accurate forecasting.
 
-Stock Status
+Stock Status : Provides real-time insights into current stock levels and potential shortages.
 
-Forecasting for the next time period
+Forecasting for the next time period :Projects future demand based on historical trends.
 
 # Visualization Used:
 
-• Stack Area chart: which shows the average, Cummulative of ABC corporation.
+- Stack Area Chart: Depicts cumulative metrics (e.g., cumulative value or quantity) for different categories (ABC).
 
-• Cards, gauge, slicer to shows the requirement according to particular areas.
+- Cards, Gauges, and Slicers: Display key metrics (e.g., inventory levels by area, safety stock requirements).
 
-• Tables, matrix, line charts for distributions, stock reports and turnover ratio.
+- Tables and Matrices: Provide detailed data views on stock distribution, turnover ratio, and reports.
 
-• Different Types Of DAX functions to analyse the actual data.
+- Line Charts: Show trends over time, like changes in inventory levels or turnover rates.
 
-• With the help of DAX Created Calculated Columns and Rows (for combining dates etc.)
+- DAX Functions: Used extensively for calculations, aggregations, and custom columns. Calculated Columns and Rows in DAX help combine or manipulate data (e.g., creating time-based segments for analysis).
+
 
 # Steps followed for Creating Inventory Management Dashboard:
 
-In power BI-> Upload Excel File -->GET DATA
+Data Import:
 
-Performing ETL
+Upload Excel files or connect to data sources using Power BI’s Get Data feature.
 
-Performing DAX Operations STEPS FOR Visualization
+ETL Process (Extract, Transform, Load):
+
+Clean, shape, and transform data in Power Query Editor.
+Normalize data to ensure accuracy in analysis (e.g., remove duplicates, handle missing values).
+
+Data Modeling:
+
+Establish relationships between tables, set primary keys, and organize data for analysis.
+Use calculated columns and measures in DAX for complex calculations.
+
+DAX Operations:
+
+Create measures for KPIs like average demand, reorder points, and turnover ratios.
+DAX expressions are used for custom calculations and time intelligence functions (e.g., cumulative totals).
+
+Visualization Setup:
+
+Select appropriate charts, cards, and tables to visualize data insights.
+Use slicers to enable filtering by categories (e.g., product type, region).
+Format visualizations for clarity and ease of interpretation.
+
+Dashboard Finalization:
+
+Arrange visuals to create an intuitive, user-friendly layout.
+Customize colors, labels, and tooltips for better readability.
 
 [NOTE : IF YOU WANT DETAIL STEPS FOR THIS PROJECT, I HAVE ATTATCHED A PPT FOR IT.]
 
 # Conclusion:
 
-Using this Dashboard, Inventory Managers have effectively Control in which we are Storing & maintain the Service levels by ordering Right Re-order points.
+This Inventory Management Dashboard empowers inventory managers to control stock effectively, reducing the risk of overstocking or stockouts. By setting optimal reorder points and monitoring real-time stock status, it enables proactive decision-making and supports better service level maintenance.
 
